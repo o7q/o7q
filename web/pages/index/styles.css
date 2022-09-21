@@ -36,6 +36,19 @@ body
     margin: 0 auto;
     transition: all 0.2s ease-in-out;
 }
+.buttonImage
+{
+    width: 10%;
+    margin-top: -.75rem;
+    margin-right: 500px;
+}
+.buttonText
+{
+    font-family: Arial;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: -2.15rem;
+}
 
 .button-discord:hover
 {
@@ -95,19 +108,4 @@ body
 {
     filter: invert(71%) sepia(20%) saturate(1549%) hue-rotate(87deg) brightness(89%) contrast(104%);
     transition: all 2s ease-in-out;
-}
-
-.buttonImage
-{
-    width: 10%;
-    margin-top: -.75rem;
-    margin-right: 500px;
-}
-
-.buttonText
-{
-    font-family: Arial;
-    font-size: 18px;
-    color: #FFFFFF;
-    margin-top: -2.15rem;
 }
