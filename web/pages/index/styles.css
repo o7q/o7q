@@ -91,7 +91,7 @@ body
 }
 .button-discord:hover .buttonImg
 {
-    filter: invert(35%) sepia(32%) saturate(3117%) hue-rotate(218deg) contrast(92%) brightness(99%) drop-shadow(0 0 1rem #00000080);
+    filter: invert(35%) sepia(32%) saturate(3117%) hue-rotate(218deg) contrast(92%) brightness(99%) drop-shadow(0 0 1rem #5865F280);
     transition: all 1s ease-in-out;
     transition-delay: 0.1s;
 }
@@ -102,7 +102,7 @@ body
 }
 .button-youtube:hover .buttonImg
 {
-    filter: invert(12%) sepia(92%) saturate(6165%) hue-rotate(356deg) contrast(126%) brightness(90%) drop-shadow(0 0 1rem #00000080);
+    filter: invert(12%) sepia(92%) saturate(6165%) hue-rotate(356deg) contrast(126%) brightness(90%) drop-shadow(0 0 1rem #FF000080);
     transition: all 1s ease-in-out;
     transition-delay: 0.1s;
 }
@@ -113,7 +113,7 @@ body
 }
 .button-github:hover .buttonImg
 {
-    filter: invert(100%) sepia(60%) saturate(912%) hue-rotate(177deg) contrast(98%) brightness(102%) drop-shadow(0 0 1rem #00000080);
+    filter: invert(100%) sepia(60%) saturate(912%) hue-rotate(177deg) contrast(98%) brightness(102%) drop-shadow(0 0 1rem #F0F6FC80);
     transition: all 1s ease-in-out;
     transition-delay: 0.15s;
 }
@@ -124,7 +124,7 @@ body
 }
 .button-twitter:hover .buttonImg
 {
-    filter: invert(67%) sepia(59%) saturate(5530%) hue-rotate(176deg) contrast(91%) brightness(99%) drop-shadow(0 0 1rem #00000080);
+    filter: invert(67%) sepia(59%) saturate(5530%) hue-rotate(176deg) contrast(91%) brightness(99%) drop-shadow(0 0 1rem #1DA1F280);
     transition: all 1s ease-in-out;
     transition-delay: 0.15s;
 }
@@ -135,7 +135,7 @@ body
 }
 .button-steam:hover .buttonImg
 {
-    filter: invert(31%) sepia(82%) saturate(3580%) hue-rotate(178deg) contrast(85%) brightness(99%) drop-shadow(0 0 1rem #00000080);
+    filter: invert(31%) sepia(82%) saturate(3580%) hue-rotate(178deg) contrast(85%) brightness(99%) drop-shadow(0 0 1rem #1387B880);
     transition: all 1s ease-in-out;
     transition-delay: 0.15s;
 }
@@ -146,7 +146,7 @@ body
 }
 .button-spotify:hover .buttonImg
 {
-    filter: invert(71%) sepia(20%) saturate(1549%) hue-rotate(87deg) contrast(104%) brightness(89%) drop-shadow(0 0 1rem #00000080);
+    filter: invert(71%) sepia(20%) saturate(1549%) hue-rotate(87deg) contrast(104%) brightness(89%) drop-shadow(0 0 1rem #1ED76080);
     transition: all 1s ease-in-out;
     transition-delay: 0.1s;
 }
