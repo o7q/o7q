@@ -5,3 +5,4 @@
 - 👉 Programs I'm currently learning: <b>Blender, Unreal Engine, and Houdini</b>.
 - 👉 How to reach me: <b>Discord -> o7q#4584</b>.
 ---
+More of my stuff: https://o7q.github.io/o7q
