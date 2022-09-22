@@ -85,6 +85,9 @@ body
     padding-top: 5px;
 }
 
+/* socials */
+
+/* discord */
 .button-discord:hover
 {
     border: 3px solid #5865F2;
@@ -96,6 +99,7 @@ body
     transition-delay: 0.1s;
 }
 
+/* youtube */
 .button-youtube:hover
 {
     border: 3px solid #FF0000;
@@ -107,6 +111,7 @@ body
     transition-delay: 0.1s;
 }
 
+/* github */
 .button-github:hover
 {
     border: 3px solid #F0F6FC;
@@ -115,9 +120,10 @@ body
 {
     filter: invert(100%) sepia(60%) saturate(912%) hue-rotate(177deg) contrast(98%) brightness(102%) drop-shadow(0 0 1rem #F0F6FC80);
     transition: all 1s ease-in-out;
-    transition-delay: 0.15s;
+    transition-delay: 0.1s;
 }
 
+/* twitter */
 .button-twitter:hover
 {
     border: 3px solid #1DA1F2;
@@ -126,20 +132,22 @@ body
 {
     filter: invert(67%) sepia(59%) saturate(5530%) hue-rotate(176deg) contrast(91%) brightness(99%) drop-shadow(0 0 1rem #1DA1F280);
     transition: all 1s ease-in-out;
-    transition-delay: 0.15s;
+    transition-delay: 0.1s;
 }
 
-.button-steam:hover
+/* instagram */
+.button-instagram:hover
 {
-    border: 3px solid #1387B8;
+    border: 3px solid #FF0C55;
 }
-.button-steam:hover .buttonImg
+.button-instagram:hover .buttonImg
 {
-    filter: invert(31%) sepia(82%) saturate(3580%) hue-rotate(178deg) contrast(85%) brightness(99%) drop-shadow(0 0 1rem #1387B880);
+    filter: invert(15%) sepia(78%) saturate(5662%) hue-rotate(337deg) contrast(101%) brightness(110%) drop-shadow(0 0 1rem #FF0C5580);
     transition: all 1s ease-in-out;
-    transition-delay: 0.15s;
+    transition-delay: 0.1s;
 }
 
+/* spotify */
 .button-spotify:hover
 {
     border: 3px solid #1ED760;
@@ -151,6 +159,33 @@ body
     transition-delay: 0.1s;
 }
 
+/* steam */
+.button-steam:hover
+{
+    border: 3px solid #1387B8;
+}
+.button-steam:hover .buttonImg
+{
+    filter: invert(31%) sepia(82%) saturate(3580%) hue-rotate(178deg) contrast(85%) brightness(99%) drop-shadow(0 0 1rem #1387B880);
+    transition: all 1s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+/* namemc */
+.button-namemc:hover
+{
+    border: 3px solid #E6E8ED;
+}
+.button-namemc:hover .buttonImg
+{
+    filter: invert(94%) sepia(11%) saturate(74%) hue-rotate(186deg) contrast(92%) brightness(99%) drop-shadow(0 0 1rem #E6E8ED80);
+    transition: all 1s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+/* projects */
+
+/* mediadownloader */
 .button-mediadownloader:hover
 {
     border: 3px solid #8E8E8E;
@@ -162,6 +197,7 @@ body
     transition-delay: 0.1s;
 }
 
+/* cubelauncher */
 .button-cubelauncher:hover
 {
     border: 3px solid #69A44F;
@@ -173,6 +209,7 @@ body
     transition-delay: 0.1s;
 }
 
+/* qbak */
 .button-qbak:hover
 {
     border: 3px solid #16C60C;
@@ -184,6 +221,7 @@ body
     transition-delay: 0.1s;
 }
 
+/* netutil */
 .button-netutil:hover
 {
     border: 3px solid #F9F1A5;
