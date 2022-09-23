@@ -135,18 +135,6 @@ body
     transition-delay: 0.1s;
 }
 
-/* instagram */
-.button-instagram:hover
-{
-    border: 3px solid #FF0C55;
-}
-.button-instagram:hover .buttonImg
-{
-    filter: invert(15%) sepia(78%) saturate(5662%) hue-rotate(337deg) contrast(101%) brightness(110%) drop-shadow(0 0 1rem #FF0C5580);
-    transition: all 1s ease-in-out;
-    transition-delay: 0.1s;
-}
-
 /* spotify */
 .button-spotify:hover
 {
