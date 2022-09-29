@@ -40,7 +40,7 @@ body
 {
     font-family: RobotoRegular;
     font-size: 17px;
-    color: #999999;
+    color: #888888;
 }
 
 .headLinkText
@@ -55,7 +55,7 @@ body
     width: 500px;
     height: 25px;
     padding: 20px;
-    background: #222222;
+    background: #161616;
     border: 3px solid #0f0f0f;
     border-radius: 20px;
     margin: 0 auto;
