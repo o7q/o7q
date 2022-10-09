@@ -16,6 +16,21 @@
     src: url(../../assets/fonts/robotoregular.ttf);
 }
 
+::-webkit-scrollbar
+{
+    width: 0.75em;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: #161616;
+}
+
+::-webkit-scrollbar-track
+{
+    background: #0F0F0F;
+}
+
 body
 {
     text-align: center;
