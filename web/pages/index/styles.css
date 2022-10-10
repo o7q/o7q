@@ -24,7 +24,7 @@
 ::-webkit-scrollbar-thumb
 {
     border-radius: 100px;
-    background: #161616;
+    background: #202020;
 }
 
 ::-webkit-scrollbar-track
@@ -97,7 +97,7 @@ body
     height: 25px;
     padding: 20px;
     background: #161616;
-    border: 3px solid #0f0f0f;
+    border: 3px solid #0F0F0F;
     border-radius: 100px;
     margin: 0 auto;
     transition: all 0.2s ease-in-out;
@@ -116,6 +116,10 @@ body
     color: #FFFFFF;
     margin-top: 0.2rem;
     margin-right: 3.2rem;
+}
+.buttonHover
+{
+    cursor: pointer;
 }
 
 .copyrightText
