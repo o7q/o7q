@@ -3,7 +3,7 @@ function bodyInit()
     // nothing yet
 }
 
-function openLink(link)
+function doAction(action, input)
 {
-    window.open(link);
+    if (action == "openLink") window.open(input);
 }
