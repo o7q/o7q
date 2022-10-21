@@ -1,19 +1,19 @@
 @font-face
 {
     font-family: RobotoBlack;
-    src: url(../../assets/fonts/robotoblack.ttf);
+    src: url(../../fonts/robotoblack.ttf);
 }
 
 @font-face
 {
     font-family: RobotoBold;
-    src: url(../../assets/fonts/robotobold.ttf);
+    src: url(../../fonts/robotobold.ttf);
 }
 
 @font-face
 {
     font-family: RobotoRegular;
-    src: url(../../assets/fonts/robotoregular.ttf);
+    src: url(../../fonts/robotoregular.ttf);
 }
 
 ::-webkit-scrollbar
@@ -66,7 +66,7 @@ body
 .bannerImg
 {
     margin-top: 95px;
-    width: 3%;
+    width: 55px;
     height: auto;
 }
 
