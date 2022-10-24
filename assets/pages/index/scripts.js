@@ -1,4 +1,9 @@
-function loadSite()
+function bodyInit()
 {
-    window.location.assign('assets/pages/main/main.html'); 
+    // nothing yet
+}
+
+function doAction(action, input)
+{
+    if (action == "openLink") window.open(input);
 }
