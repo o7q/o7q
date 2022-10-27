@@ -1,17 +1,17 @@
 @font-face
 {
     font-family: RobotoBlack;
-    src: url(../../fonts/robotoBlack.ttf);
+    src: url(/assets/fonts/robotoBlack.ttf);
 }
 @font-face
 {
     font-family: RobotoBold;
-    src: url(../../fonts/robotoBold.ttf);
+    src: url(/assets/fonts/robotoBold.ttf);
 }
 @font-face
 {
     font-family: RobotoRegular;
-    src: url(../../fonts/robotoRegular.ttf);
+    src: url(/assets/fonts/robotoRegular.ttf);
 }
 
 @keyframes backgroundPan
