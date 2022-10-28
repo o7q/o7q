@@ -7,6 +7,9 @@
         <link rel="icon" href="../../images/favicon.png">
         <link rel="stylesheet" href="styles.css">
         <script src="scripts.js"></script>
+
+        <!-- libraries -->
+        <script src="../../libraries/anime-3.2.1/lib/anime.min.js"></script>
     </head>
 
     <body>
@@ -15,7 +18,7 @@
             Click here to return
         </p>
 
-        <img src="../../images/banner.png" class="bannerImg disablePointer disableSelect" draggable="false">
+        <img src="../../images/banner.png" class="bannerImg disablePointer disableSelect bannerAnimeJS" draggable="false">
 
         <br class="disableSelect">
         <br class="disableSelect">
@@ -42,7 +45,7 @@
         <!-- socials -->
 
         <!-- discord -->
-        <div class="button button-discord enablePointer disableSelect" onclick="doAction('openLink', 'https:\/\/discord.gg/n8jSSSB')">
+        <div class="button button-discord enablePointer disableSelect buttonAnimeJS" onclick="doAction('openLink', 'https:\/\/discord.gg/n8jSSSB')">
                 <img src="../../images/button_icons/socials/discord.png" class="buttonImg" draggable="false">
                 <p class="buttonText">
                     Discord (o7q#4584)
@@ -50,7 +53,7 @@
         </div>
         
         <!-- youtube (o7q) -->
-        <div class="button button-youtube enablePointer disableSelect" onclick="doAction('openLink', 'https:\/\/www.youtube.com/o7qedits')">
+        <div class="button button-youtube enablePointer disableSelect buttonAnimeJS" onclick="doAction('openLink', 'https:\/\/www.youtube.com/o7qedits')">
             <img src="../../images/button_icons/socials/youtube.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 YouTube (o7q)
@@ -58,7 +61,7 @@
         </div>
 
         <!-- youtube (o7q2) -->
-        <div class="button button-youtube enablePointer disableSelect" onclick="doAction('openLink', 'https:\/\/www.youtube.com/channel/UCACzfnue4sSBZ3gXH5lE3xw')">
+        <div class="button button-youtube enablePointer disableSelect buttonAnimeJS" onclick="doAction('openLink', 'https:\/\/www.youtube.com/channel/UCACzfnue4sSBZ3gXH5lE3xw')">
             <img src="../../images/button_icons/socials/youtube.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 YouTube (o7q2)
@@ -66,7 +69,7 @@
         </div>
 
         <!-- github -->
-        <div class="button button-github enablePointer disableSelect" onclick="doAction('openLink', 'https:\/\/github.com/o7q')">
+        <div class="button button-github enablePointer disableSelect buttonAnimeJS" onclick="doAction('openLink', 'https:\/\/github.com/o7q')">
             <img src="../../images/button_icons/socials/github.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 GitHub
@@ -74,7 +77,7 @@
         </div>
 
         <!-- twitter -->
-        <div class="button button-twitter enablePointer disableSelect" onclick="doAction('openLink', 'https:\/\/twitter.com/o7qYT')">
+        <div class="button button-twitter enablePointer disableSelect buttonAnimeJS" onclick="doAction('openLink', 'https:\/\/twitter.com/o7qYT')">
             <img src="../../images/button_icons/socials/twitter.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 Twitter
@@ -82,7 +85,7 @@
         </div>
 
         <!-- spotify -->
-        <div class="button button-spotify enablePointer disableSelect" onclick="doAction('openLink', 'https:\/\/open.spotify.com/user/0efvsqrjytotp5hsoutublonh')">
+        <div class="button button-spotify enablePointer disableSelect buttonAnimeJS" onclick="doAction('openLink', 'https:\/\/open.spotify.com/user/0efvsqrjytotp5hsoutublonh')">
             <img src="../../images/button_icons/socials/spotify.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 Spotify
@@ -90,7 +93,7 @@
         </div>
 
         <!-- steam -->
-        <div class="button button-steam enablePointer disableSelect" onclick="doAction('openLink', 'https:\/\/steamcommunity.com/id/o7q_')">
+        <div class="button button-steam enablePointer disableSelect buttonAnimeJS" onclick="doAction('openLink', 'https:\/\/steamcommunity.com/id/o7q_')">
             <img src="../../images/button_icons/socials/steam.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 Steam
@@ -98,7 +101,7 @@
         </div>
 
         <!-- namemc -->
-        <div class="button button-namemc enablePointer disableSelect" onclick="doAction('openLink', 'https:\/\/namemc.com/profile/o7q.3')">
+        <div class="button button-namemc enablePointer disableSelect buttonAnimeJS" onclick="doAction('openLink', 'https:\/\/namemc.com/profile/o7q.3')">
             <img src="../../images/button_icons/socials/namemc.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 NameMC
@@ -114,7 +117,7 @@
         <!-- projects -->
 
         <!-- mediadownloader -->
-        <div class="button button-mediadownloader enablePointer disableSelect" onclick="doAction('openLink', 'https:\/\/o7q.github.io/MediaDownloader')">
+        <div class="button button-mediadownloader enablePointer disableSelect buttonAnimeJS" onclick="doAction('openLink', 'https:\/\/o7q.github.io/MediaDownloader')">
             <img src="../../images/button_icons/projects/mediadownloader.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 MediaDownloader
@@ -122,7 +125,7 @@
         </div>
 
         <!-- discordrc -->
-        <div class="button button-discordrc enablePointer disableSelect" onclick="doAction('openLink', 'https:\/\/o7q.github.io/DiscordRC')">
+        <div class="button button-discordrc enablePointer disableSelect buttonAnimeJS" onclick="doAction('openLink', 'https:\/\/o7q.github.io/DiscordRC')">
             <img src="../../images/button_icons/projects/discordrc.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 DiscordRC
@@ -130,7 +133,7 @@
         </div>
 
         <!-- cubelauncher -->
-        <div class="button button-cubelauncher enablePointer disableSelect" onclick="doAction('openLink', 'https:\/\/github.com/o7q/cubeLauncher')">
+        <div class="button button-cubelauncher enablePointer disableSelect buttonAnimeJS" onclick="doAction('openLink', 'https:\/\/github.com/o7q/cubeLauncher')">
             <img src="../../images/button_icons/projects/cubelauncher.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 cubeLauncher
@@ -138,7 +141,7 @@
         </div>
 
         <!-- qbak -->
-        <div class="button button-qbak enablePointer disableSelect" onclick="doAction('openLink', 'https:\/\/github.com/o7q/qbak')">
+        <div class="button button-qbak enablePointer disableSelect buttonAnimeJS" onclick="doAction('openLink', 'https:\/\/github.com/o7q/qbak')">
             <img src="../../images/button_icons/projects/qbak.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 qbak
@@ -146,7 +149,7 @@
         </div>
 
         <!-- netutil -->
-        <div class="button button-netutil enablePointer disableSelect" onclick="doAction('openLink', 'https:\/\/github.com/o7q/netutil')">
+        <div class="button button-netutil enablePointer disableSelect buttonAnimeJS" onclick="doAction('openLink', 'https:\/\/github.com/o7q/netutil')">
             <img src="../../images/button_icons/projects/netutil.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 netutil
@@ -156,5 +159,61 @@
         <p class="copyrightText disablePointer disableSelect">
             © 2022 o7q
         </p>
+
+        <script>
+            anime({
+                targets: '.bannerAnimeJS',
+                keyframes:
+                [
+                    {
+                        translateY: -10,
+                        rotateX: -10,
+                        rotateY: -30,
+                        scale: 1.25
+                    },
+                    {
+                        translateY: -20,
+                        rotateX: 30,
+                        scale: 1.5
+                    },
+                    {
+                        translateY: 0,
+                        rotateX: 0,
+                        rotateY: 0,
+                        scale: 1
+                    },
+                ],
+                delay: anime.stagger(200),
+                easing: 'easeInOutElastic',
+                duration: 4000,
+                delay: 5000,
+                loop: true
+            })
+            
+            anime({
+                targets: '.buttonAnimeJS',
+                keyframes:
+                [
+                    {
+                        translateY: -10,
+                        rotateX: -15,
+                        rotateY: -10
+                    },
+                    {
+                        rotateX: 15,
+                        rotateY: 10
+                    },
+                    {
+                        translateY: 0,
+                        rotateX: 0,
+                        rotateY: 0
+                    }
+                ],
+                delay: anime.stagger(200),
+                easing: 'easeInOutBack',
+                duration: 35000,
+                loop: true
+            })
+        </script>
     </body>
 </html>
