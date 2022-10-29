@@ -1,22 +1,26 @@
 // o7qstuffutils by o7q
 
+// page actions
+
+// constrain mobile
+function constrainMobile()
+{
+    if (mobileCheck() == true) openPage("replace", "assets/pages/basic/index.html");
+}
+
+// open root from basic
+function openRootFromBasic()
+{
+    if (mobileCheck() == false) openPage("replace", "../../../index.html");
+}
+
+// functions
+
 // open page
-function openPage(openMode, url)
+function openPage(mode, url)
 {
-    if (openMode == "new") window.open(url);
-    if (openMode == "replace") window.location.assign(url);
-}
-
-// mobile teleport
-function mobileTP()
-{
-    if (mobileCheck() == true) openPage('replace', 'assets/pages/basic/index.html');
-}
-
-// return home
-function returnHome()
-{
-    if (mobileCheck() == false) openPage('replace', '../../../index.html');
+    if (mode == "new") window.open(url);
+    if (mode == "replace") window.location.assign(url);
 }
 
 // mobile check
