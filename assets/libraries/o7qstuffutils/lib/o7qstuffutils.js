@@ -2,8 +2,8 @@
 
 // page actions
 
-// constrain mobile
-function constrainMobile()
+// constrain mobile to basic
+function constrainMobileToBasic()
 {
     if (mobileCheck() == true) openPage("replace", "assets/pages/basic/index.html");
 }

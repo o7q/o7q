@@ -14,14 +14,13 @@ anime({
             scale: 1
         },
         {
-            translateY: -10,
+            translateY: -15,
             rotateX: 30,
             rotateY: 35,
             scale: 1.25
         },
         {
-            translateY: -25,
-            rotateX: 30,
+            translateY: -30,
             rotateY: -35,
             scale: 1.25
         },
