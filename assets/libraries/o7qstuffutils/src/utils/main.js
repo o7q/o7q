@@ -1,19 +1,5 @@
 // o7qstuffutils by o7q
 
-// page actions
-
-// constrain mobile to basic
-function constrainMobileToBasic()
-{
-    if (mobileCheck() == true) openPage("replace", "assets/pages/basic/index.html");
-}
-
-// open root from basic
-function openRootFromBasic()
-{
-    if (mobileCheck() == false) openPage("replace", "../../../index.html");
-}
-
 // functions
 
 // open page
