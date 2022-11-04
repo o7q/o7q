@@ -152,6 +152,18 @@
     transition-delay: 0.1s;
 }
 
+/* lastfm */
+.button-lastfm:hover
+{
+    border: 3px solid #E31B23;
+}
+.button-lastfm:hover .buttonImg
+{
+    filter: invert(11%) sepia(74%) saturate(6948%) hue-rotate(353deg) contrast(86%) brightness(103%) drop-shadow(0 0 1rem #E31B2380);
+    transition: all 1.5s ease-in-out;
+    transition-delay: 0.1s;
+}
+
 /* steam */
 .button-steam:hover
 {
