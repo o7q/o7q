@@ -5,8 +5,16 @@
 // open page
 function openPage(mode, url)
 {
-    if (mode == "new") window.open(url);
-    if (mode == "replace") window.location.assign(url);
+    switch(mode)
+    {
+        case "new": window.open(url); break;
+        case "replace": window.location.assign(url); break;
+
+        default:
+            var err = "openPage Error:\n\nCould not open page: Invalid mode '" + mode + "'";
+            alert(err); console.error(err);
+            return;
+    }
 }
 
 // mobile check
