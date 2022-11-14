@@ -5,4 +5,11 @@
 - 👉 The programs I'm currently learning are <b>Blender, Unreal Engine, and Houdini</b>
 - 👉 You can reach me through <b>Discord</b> → <b>o7q#4584</b>
 ---
-· ◡ · 👉 https://o7q.github.io/o7q
+
+### · ◡ · 👉 https://o7q.github.io/o7q
+
+<br>
+
+|||
+|-|-|
+| ![o7q's GitHub Stats](https://github-readme-stats.vercel.app/api?username=o7q&theme=dark&show_icons=true&hide=prs) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=o7q&theme=dark) |
