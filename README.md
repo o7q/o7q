@@ -1,5 +1,3 @@
-<div style="cursor: default; user-select: none;">
-
 ### <b>o7q</b> 👋🙂 ~Hobbyist 🧀 ~Computer & Digital/Video Arts Generalist 🖥️🎥
 
 ---
@@ -19,5 +17,3 @@
 |-|-|
 
 ---
-
-</div>
