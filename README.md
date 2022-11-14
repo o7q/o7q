@@ -13,8 +13,7 @@
 
 ---
 
-|||
+| ![o7q's GitHub Stats](https://github-readme-stats.vercel.app/api?username=o7q&theme=dark&show_icons=true&hide=prs) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=o7q&theme=dark&layout=compact) |
 |-|-|
-|![o7q's GitHub Stats](https://github-readme-stats.vercel.app/api?username=o7q&theme=dark&show_icons=true&hide=prs)|![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=o7q&theme=dark&layout=compact)|
 
 ---
