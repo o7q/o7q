@@ -1,4 +1,4 @@
-<div style="cursor: default; user-select: none;">
+<div style="user-select: none;">
 
 ### <b>o7q</b> 👋🙂 ~Hobbyist 🧀 ~Computer & Digital/Video Arts Generalist 🖥️🎥
 
@@ -15,7 +15,7 @@
 
 ---
 
-| ![o7q's GitHub Stats](https://github-readme-stats.vercel.app/api?username=o7q&theme=dark&show_icons=true&hide=prs) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=o7q&theme=dark&layout=compact) |
+| [![o7q's GitHub Stats](https://github-readme-stats.vercel.app/api?username=o7q&theme=dark&show_icons=true&hide=prs)](https://github.com/o7q) | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=o7q&theme=dark&layout=compact)](https://github.com/o7q?tab=repositories) |
 |-|-|
 
 ---
