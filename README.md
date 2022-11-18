@@ -12,3 +12,8 @@
 ### · ◡ · 👉 https://o7q.github.io/o7q
 
 ---
+
+| [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=o7q&theme=transparent&show_icons=true&hide=prs)](https://github.com/o7q) | [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=o7q&theme=transparent&layout=compact)](https://github.com/o7q?tab=repositories) |
+|-|-|
+
+---
