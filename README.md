@@ -13,7 +13,7 @@
 
 ---
 
-[![Discord Presence](https://lanyard.cnrad.dev/api/307269599680790528)](https://discord.com/users/307269599680790528)
+[![Discord Presence](https://lanyard.cnrad.dev/api/307269599680790528)](https://discord.gg/n8jSSSB)
 
 ---
 
