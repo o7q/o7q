@@ -17,7 +17,7 @@
 
 ---
 
-| [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=o7q&theme=dark&show_icons=true&hide=prs)](https://github.com/o7q/o7q) | [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=o7q&theme=dark&layout=compact)](https://github.com/o7q?tab=repositories) |
+| [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=o7q&theme=transparent&show_icons=true&hide=prs)](https://github.com/o7q/o7q) | [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=o7q&theme=transparent&layout=compact)](https://github.com/o7q?tab=repositories) |
 |-|-|
 
 ---
