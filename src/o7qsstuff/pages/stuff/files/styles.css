@@ -62,6 +62,7 @@
     border-radius: 100px;
     margin: 0 auto;
     transition: all 0.2s ease-in-out;
+    filter: drop-shadow(2px 10px 0rem #202020);
 }
 
 .buttonImg
@@ -69,7 +70,7 @@
     width: 13%;
     margin-top: -0.8rem;
     float: left;
-    filter: invert(50%) sepia(25%) saturate(500%) hue-rotate(200deg) contrast(100%) brightness(0%) drop-shadow(0 0 0.75rem #dc143c00);
+    filter: invert(50%) sepia(25%) saturate(500%) hue-rotate(200deg) contrast(100%) brightness(0%) drop-shadow(0 0 0.75rem #00000000);
 }
 
 .buttonText
