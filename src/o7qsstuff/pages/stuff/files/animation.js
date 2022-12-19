@@ -35,11 +35,10 @@ anime({
     duration: 6000,
     delay: 5000,
     loop: true
-})
+});
 
 // buttons
-anime(
-{
+anime({
     targets: '.buttonAnimeJS',
     keyframes:
     [
@@ -62,4 +61,4 @@ anime(
     easing: 'easeInOutBack',
     duration: 35000,
     loop: true
-})
+});
