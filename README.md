@@ -1,4 +1,4 @@
-### <b>o7q</b> 👋🙂 ~Hobbyist 🧀 ~Computer & Digital/Video Arts Generalist 🖥️🎥
+### <img src="assets/images/logo.png" style="width: 2%;"> <b>o7q</b> 👋🙂 ~Hobbyist 🧀 ~Computer & Digital/Video Arts Generalist 🖥️🎥
 
 ---
 
