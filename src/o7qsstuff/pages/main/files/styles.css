@@ -1,0 +1,119 @@
+@keyframes moveUpDown
+{
+    0%, 100%
+    {
+        bottom: -6px;
+    }
+    50%
+    {
+        bottom: 0px;
+    }
+}
+
+@keyframes rainbowAnimation
+{
+    0%, 100%
+    {
+        background-position: 0 0;
+    }
+
+    50%
+    {
+        background-position: 100% 0;
+    }
+}
+
+.introText
+{
+    font-family: RobotoBold;
+    font-size: 60px;
+    white-space: nowrap;
+    color: #888888;
+}
+.introText:hover
+{
+    color: #999999;
+}
+
+.titleText
+{
+    font-family: RobotoBlack;
+    font-size: 80px;
+    white-space: nowrap;
+    background: linear-gradient(to right, #6666FF, #0099FF, #00FF00, #FF3399, #6666FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 400% 100%;
+    animation: rainbowAnimation 10s ease-in-out infinite;
+    color: #999999;
+}
+.titleText:hover
+{
+    background: linear-gradient(to right, #6666FF, #0099FF, #656d65, #FF3399, #6666FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 400% 100%;
+    animation: rainbowAnimation 10s ease-in-out infinite;
+}
+
+.arrowImg
+{
+    position: fixed;
+    transform: translate(152px, 0px);
+    width: 20px;
+    animation: moveUpDown 1.25s ease-in-out infinite;
+}
+
+.basicSiteText
+{
+    font-family: RobotoRegular;
+    font-size: 15px;
+    white-space: nowrap;
+    transform: translate(0px, -10px);
+    color: #333333;
+}
+.basicSiteText:hover
+{
+    color: #444444;
+}
+
+.viewSourceText
+{
+    font-family: RobotoRegular;
+    font-size: 12px;
+    color: #444444;
+    padding-top: 28px;
+    padding-right: 12px;
+}
+.viewSourceText:hover
+{
+    color: #555555;
+}
+
+.copyrightText
+{
+    font-family: RobotoRegular;
+    font-size: 12px;
+    color: #444444;
+    padding-right: 12px;
+}
+
+/* functions */
+.centerXY
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.centerBottom
+{
+    position: fixed;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}

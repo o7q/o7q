@@ -1,0 +1,106 @@
+/* o7qstuffutils by o7q */
+
+/* configure fonts */
+
+/* roboto black */
+@font-face
+{
+    font-family: RobotoBlack;
+    src: url(fonts/robotoBlack.ttf);
+}
+
+/* roboto bold */
+@font-face
+{
+    font-family: RobotoBold;
+    src: url(fonts/robotoBold.ttf);
+}
+
+/* roboto regular */
+@font-face
+{
+    font-family: RobotoRegular;
+    src: url(fonts/robotoRegular.ttf);
+}
+
+/* configure keyframes */
+
+/* background pan */
+@keyframes backgroundPan
+{
+    0%
+    {
+        background-position: 10% 0%
+    }
+    50%
+    {
+        background-position: 90% 100%
+    }
+    100%
+    {
+        background-position: 10% 0%
+    }
+}
+
+/* configure components */
+
+/* scrollbar width */
+::-webkit-scrollbar
+{
+    width: 0.75em;
+}
+
+/* scrollbar thumb */
+::-webkit-scrollbar-thumb
+{
+    border-radius: 100px;
+    background: #202020;
+}
+
+/* scrollbar track */
+::-webkit-scrollbar-track
+{
+    background: #0F0F0F;
+}
+
+/* body */
+body
+{
+    animation: backgroundPan 10s ease-in-out infinite;
+    background: linear-gradient(
+        to right,
+        #010101,
+        #121212,
+        #010101
+    );
+    background-size: 150%;
+
+    text-align: center;
+    background-color: #010101;
+}
+
+/* functions */
+
+/* enable animate */
+.enableAnimate
+{
+    transition: all 0.3s ease-in-out;
+}
+
+/* enable pointer */
+.enablePointer
+{
+    cursor: pointer;
+}
+
+/* disable pointer */
+.disablePointer
+{
+    cursor: default;
+}
+
+/* disable select */
+.disableSelect
+{
+    user-select: none;
+}
