@@ -62,5 +62,4 @@ anime(
     easing: 'easeInOutBack',
     duration: 35000,
     loop: true
-}
-)
+})
