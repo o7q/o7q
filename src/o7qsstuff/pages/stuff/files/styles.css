@@ -62,7 +62,8 @@
     border-radius: 100px;
     margin: 0 auto;
     transition: all 0.2s ease-in-out;
-    filter: drop-shadow(2px 10px 0rem #202020);
+    box-shadow: 0px 8px 0px #202020,
+                16px 32px 16px #00000032;
 }
 
 .buttonImg
