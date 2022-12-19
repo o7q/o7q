@@ -60,7 +60,7 @@
 .arrowImg
 {
     position: fixed;
-    transform: translate(152px, -45px);
+    transform: translate(152px, 0px);
     width: 20px;
     animation: moveUpDown 1.25s ease-in-out infinite;
 }
