@@ -90,92 +90,6 @@
     transform: translate(0px, 8px);
 }
 
-/* projects */
-
-/* mediadownloader */
-.button-mediadownloader:hover
-{
-    border: 3px solid #8E8E8E;
-}
-.button-mediadownloader:hover .buttonImg
-{
-    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0 0 1rem #8E8E8E80);
-    transition: all 1.5s ease-in-out;
-    transition-delay: 0.1s;
-}
-
-/* discordrc */
-.button-discordrc:hover
-{
-    border: 3px solid #5165F6;
-}
-.button-discordrc:hover .buttonImg
-{
-    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0 0 1rem #5165F680);
-    transition: all 1.5s ease-in-out;
-    transition-delay: 0.1s;
-}
-
-/* cubelauncher */
-.button-cubelauncher:hover
-{
-    border: 3px solid #69A44F;
-}
-.button-cubelauncher:hover .buttonImg
-{
-    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0 0 1rem #69A44F80);
-    transition: all 1.5s ease-in-out;
-    transition-delay: 0.1s;
-}
-
-/* img2ascii */
-.button-img2ascii:hover
-{
-    border: 3px solid #FFFFFF;
-}
-.button-img2ascii:hover .buttonImg
-{
-    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0 0 1rem #FFFFFF80);
-    transition: all 1.5s ease-in-out;
-    transition-delay: 0.1s;
-}
-
-/* netutil */
-.button-netutil:hover
-{
-    border: 3px solid #F9F1A5;
-}
-.button-netutil:hover .buttonImg
-{
-    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0 0 1rem #F9F1A580);
-    transition: all 1.5s ease-in-out;
-    transition-delay: 0.1s;
-}
-
-/* qbak */
-.button-qbak:hover
-{
-    border: 3px solid #16C60C;
-}
-.button-qbak:hover .buttonImg
-{
-    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0 0 1rem #16C60C80);
-    transition: all 1.5s ease-in-out;
-    transition-delay: 0.1s;
-}
-
-/* infinitemonkeysimulator */
-.button-infinitemonkeysimulator:hover
-{
-    border: 3px solid #DDD035;
-}
-.button-infinitemonkeysimulator:hover .buttonImg
-{
-    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0 0 1rem #DDD03580);
-    transition: all 1.5s ease-in-out;
-    transition-delay: 0.1s;
-}
-
 /* socials */
 
 /* discord */
@@ -282,6 +196,92 @@
 .button-namemc:hover .buttonImg
 {
     filter: invert(89%) sepia(10%) saturate(81%) hue-rotate(185deg) contrast(87%) brightness(107%) drop-shadow(0 0 1rem #E6E8ED80);
+    transition: all 1.5s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+/* projects */
+
+/* mediadownloader */
+.button-mediadownloader:hover
+{
+    border: 3px solid #8E8E8E;
+}
+.button-mediadownloader:hover .buttonImg
+{
+    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0 0 1rem #8E8E8E80);
+    transition: all 1.5s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+/* discordrc */
+.button-discordrc:hover
+{
+    border: 3px solid #5165F6;
+}
+.button-discordrc:hover .buttonImg
+{
+    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0 0 1rem #5165F680);
+    transition: all 1.5s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+/* cubelauncher */
+.button-cubelauncher:hover
+{
+    border: 3px solid #69A44F;
+}
+.button-cubelauncher:hover .buttonImg
+{
+    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0 0 1rem #69A44F80);
+    transition: all 1.5s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+/* img2ascii */
+.button-img2ascii:hover
+{
+    border: 3px solid #FFFFFF;
+}
+.button-img2ascii:hover .buttonImg
+{
+    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0 0 1rem #FFFFFF80);
+    transition: all 1.5s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+/* netutil */
+.button-netutil:hover
+{
+    border: 3px solid #F9F1A5;
+}
+.button-netutil:hover .buttonImg
+{
+    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0 0 1rem #F9F1A580);
+    transition: all 1.5s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+/* qbak */
+.button-qbak:hover
+{
+    border: 3px solid #16C60C;
+}
+.button-qbak:hover .buttonImg
+{
+    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0 0 1rem #16C60C80);
+    transition: all 1.5s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+/* infinitemonkeysimulator */
+.button-infinitemonkeysimulator:hover
+{
+    border: 3px solid #DDD035;
+}
+.button-infinitemonkeysimulator:hover .buttonImg
+{
+    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0 0 1rem #DDD03580);
     transition: all 1.5s ease-in-out;
     transition-delay: 0.1s;
 }
