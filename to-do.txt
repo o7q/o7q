@@ -1,2 +1,3 @@
 - Fix px values
 - Add hex2filter
+- Make "stuff" page banner redirect to repo
