@@ -13,11 +13,15 @@
 
 ---
 
+![**Profile Views**](https://komarev.com/ghpvc/?username=o7q&style=for-the-badge&color=blue)
+
+---
+
 [![**Discord Presence**](https://lanyard.cnrad.dev/api/307269599680790528)](https://discord.gg/n8jSSSB)
 
 ---
 
-<!-- | [![**GitHub Stats**](https://github-readme-stats.vercel.app/api?username=o7q&theme=dark&show_icons=true&hide=prs)](https://github.com/o7q/o7q) | [![**Top Languages**](https://github-readme-stats.vercel.app/api/top-langs/?username=o7q&theme=dark&layout=compact&langs_count=10)](https://github.com/o7q?tab=repositories) |
+| [![**GitHub Stats**](https://github-readme-stats.vercel.app/api?username=o7q&theme=dark&show_icons=true&hide=prs)](https://github.com/o7q/o7q) | [![**Top Languages**](https://github-readme-stats.vercel.app/api/top-langs/?username=o7q&theme=dark&layout=compact&langs_count=10)](https://github.com/o7q?tab=repositories) |
 |-|-|
 
---- -->
+---
