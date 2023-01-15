@@ -18,6 +18,6 @@
 [![**GitHub Stats**](https://github-readme-stats.vercel.app/api?username=o7q&theme=dark&show_icons=true&hide=prs)](https://github.com/o7q/o7q) | [![**Top Languages**](https://github-readme-stats.vercel.app/api/top-langs/?username=o7q&theme=dark&layout=compact&langs_count=6)](https://github.com/o7q?tab=repositories)
 |-|-|
 
-[![**Discord Presence**](https://lanyard.cnrad.dev/api/307269599680790528)](https://discord.gg/n8jSSSB)
+[![**Discord Presence**](https://lanyard.cnrad.dev/api/307269599680790528?bg=151515)](https://discord.gg/n8jSSSB)
 
 ---
