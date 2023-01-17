@@ -1,4 +1,4 @@
-// o7qstuffutils by o7q
+// stuff_utils by o7q
 
 // functions
 
