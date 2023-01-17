@@ -1,6 +1,10 @@
 ### <img src="assets/images/icon.png" style="margin-bottom: -0.15rem; margin-right: 1px;"> **o7q** 👋🙂 ~Hobbyist 🧰 ~Computer & Digital/Video Arts Generalist 🖥️🎥
 
+<p style="margin-top: -5px;"></p>
+
 ![**Profile Views**](https://komarev.com/ghpvc/?username=o7q&style=flat&color=blue)
+
+<p style="margin-top: -8px;"></p>
 
 ---
 
