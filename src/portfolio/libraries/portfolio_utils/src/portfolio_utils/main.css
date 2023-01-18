@@ -1,0 +1,59 @@
+/* portfolio_utils by o7q */
+
+/* configure fonts */
+
+/* roboto black */
+@font-face
+{
+    font-family: RobotoBlack;
+    src: url(fonts/robotoBlack.ttf);
+}
+
+/* roboto bold */
+@font-face
+{
+    font-family: RobotoBold;
+    src: url(fonts/robotoBold.ttf);
+}
+
+/* roboto regular */
+@font-face
+{
+    font-family: RobotoRegular;
+    src: url(fonts/robotoRegular.ttf);
+}
+
+/* configure components */
+
+/* scrollbar width */
+::-webkit-scrollbar
+{
+    width: 0.5em;
+}
+
+/* scrollbar thumb */
+::-webkit-scrollbar-thumb
+{
+    background: #2B2B2B;
+}
+
+/* scrollbar track */
+::-webkit-scrollbar-track
+{
+    background: #1B1B1B;
+}
+
+/* body */
+body
+{
+    margin: 50px;
+    background-color: #1B1B1B;
+}
+
+/* functions */
+
+/* disable select */
+.disableSelect
+{
+    user-select: none;
+}
