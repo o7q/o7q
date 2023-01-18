@@ -2,7 +2,7 @@
 
 <p style="margin-top: -5px;"></p>
 
-![**Profile Views**](https://komarev.com/ghpvc/?username=o7q&style=flat&color=blue)
+![**Profile Views**](https://komarev.com/ghpvc/?username=o7q&style=flat&color=blue&label=Profile+Views)
 
 <p style="margin-top: -8px;"></p>
 
