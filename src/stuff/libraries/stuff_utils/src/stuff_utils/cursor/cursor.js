@@ -1,10 +1,10 @@
 let innerCursor = document.querySelector(".inner-cursor");
 let outerCursor = document.querySelector(".outer-cursor");
 
-innerCursor.style.left = `50%`;
-innerCursor.style.top = `50%`;
-outerCursor.style.left = `50%`;
-outerCursor.style.top = `50%`;
+innerCursor.style.left = `100%`;
+innerCursor.style.top = `100%`;
+outerCursor.style.left = `100%`;
+outerCursor.style.top = `100%`;
 
 document.addEventListener("mousemove", moveCursor);
 
