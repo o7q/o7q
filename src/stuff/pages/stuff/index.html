@@ -10,20 +10,21 @@
 
         <!-- libraries -->
         <!-- o7qstuffutils -->
-        <script src="../../libraries/stuff_utils/src/stuff_utils/main.js"></script>
         <link rel="stylesheet" href="../../libraries/stuff_utils/src/stuff_utils/main.css">
+        <link rel="stylesheet" href="../../libraries/stuff_utils/src/stuff_utils/cursor/cursor.css">
+        <script src="../../libraries/stuff_utils/src/stuff_utils/main.js"></script>
         <!-- animejs -->
         <script src="../../libraries/animejs/lib/anime.min.js"></script>
     </head>
 
     <body>
-        <img src="../../images/returnArrow.png" class="returnImg enableAnimate enablePointer disableSelect" onclick="returnMain()">
-        <p class="returnText enableAnimate enablePointer disableSelect" onclick="returnMain()">
+        <img src="../../images/returnArrow.png" class="returnImg enableAnimate enablePointer disableSelect" onclick="returnMain()" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
+        <p class="returnText enableAnimate enablePointer disableSelect" onclick="returnMain()" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             Click here to return
         </p>
 
         <a href="https://github.com/o7q/o7q">
-            <img src="../../images/banner.png" class="bannerImg enablePointer disableSelect bannerAnimeJS" draggable="false">
+            <img src="../../images/banner.png" class="bannerImg enablePointer disableSelect bannerAnimeJS" draggable="false" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
         </a>
 
         <br class="disableSelect">
@@ -51,7 +52,7 @@
         <!-- socials -->
 
         <!-- discord -->
-        <div class="button button-discord enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/discord.gg/n8jSSSB')">
+        <div class="button button-discord enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/discord.gg/n8jSSSB')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
                 <img src="../../images/button_icons/socials/discord.png" class="buttonImg" draggable="false">
                 <p class="buttonText">
                     Discord (o7q#4584)
@@ -59,7 +60,7 @@
         </div>
         
         <!-- youtube (o7q) -->
-        <div class="button button-youtube enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/www.youtube.com/@o7qedits')">
+        <div class="button button-youtube enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/www.youtube.com/@o7qedits')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/socials/youtube.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 YouTube | Primary
@@ -67,7 +68,7 @@
         </div>
 
         <!-- youtube (o7q2) -->
-        <div class="button button-youtube enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/www.youtube.com/@o7qedits2')">
+        <div class="button button-youtube enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/www.youtube.com/@o7qedits2')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/socials/youtube.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 YouTube | Secondary
@@ -75,7 +76,7 @@
         </div>
 
         <!-- youtube (o7q3) -->
-        <div class="button button-youtube enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/www.youtube.com/@o7qedits3')">
+        <div class="button button-youtube enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/www.youtube.com/@o7qedits3')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/socials/youtube.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 YouTube | Streaming
@@ -83,7 +84,7 @@
         </div>
 
         <!-- github -->
-        <div class="button button-github enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/github.com/o7q')">
+        <div class="button button-github enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/github.com/o7q')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/socials/github.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 GitHub
@@ -91,7 +92,7 @@
         </div>
 
         <!-- twitter -->
-        <div class="button button-twitter enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/twitter.com/o7qYT')">
+        <div class="button button-twitter enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/twitter.com/o7qYT')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/socials/twitter.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 Twitter
@@ -99,7 +100,7 @@
         </div>
 
         <!-- instagram -->
-        <div class="button button-instagram enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/www.instagram.com/o7cube')">
+        <div class="button button-instagram enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/www.instagram.com/o7cube')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/socials/instagram.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 Instagram
@@ -107,7 +108,7 @@
         </div>
 
         <!-- spotify -->
-        <div class="button button-spotify enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/open.spotify.com/user/0efvsqrjytotp5hsoutublonh')">
+        <div class="button button-spotify enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/open.spotify.com/user/0efvsqrjytotp5hsoutublonh')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/socials/spotify.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 Spotify
@@ -115,7 +116,7 @@
         </div>
 
         <!-- lastfm -->
-        <div class="button button-lastfm enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/www.last.fm/user/o7q')">
+        <div class="button button-lastfm enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/www.last.fm/user/o7q')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/socials/lastfm.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 Last.fm
@@ -123,7 +124,7 @@
         </div>
 
         <!-- steam -->
-        <div class="button button-steam enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/steamcommunity.com/id/o7q_')">
+        <div class="button button-steam enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/steamcommunity.com/id/o7q_')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/socials/steam.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 Steam
@@ -131,7 +132,7 @@
         </div>
 
         <!-- namemc -->
-        <div class="button button-namemc enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/namemc.com/profile/o7q')">
+        <div class="button button-namemc enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/namemc.com/profile/o7q')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/socials/namemc.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 NameMC
@@ -147,7 +148,7 @@
         <!-- projects -->
 
         <!-- mediadownloader -->
-        <div class="button button-mediadownloader enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/o7q.github.io/MediaDownloader')">
+        <div class="button button-mediadownloader enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/o7q.github.io/MediaDownloader')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/projects/mediadownloader.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 MediaDownloader
@@ -155,7 +156,7 @@
         </div>
 
         <!-- discordrc -->
-        <div class="button button-discordrc enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/o7q.github.io/DiscordRC')">
+        <div class="button button-discordrc enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/o7q.github.io/DiscordRC')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/projects/discordrc.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 DiscordRC
@@ -163,7 +164,7 @@
         </div>
 
         <!-- cubelauncher -->
-        <div class="button button-cubelauncher enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/github.com/o7q/cubeLauncher')">
+        <div class="button button-cubelauncher enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/github.com/o7q/cubeLauncher')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/projects/cubelauncher.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 cubeLauncher
@@ -171,7 +172,7 @@
         </div>
 
         <!-- img2ascii -->
-        <div class="button button-img2ascii enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/github.com/o7q/img2ascii')">
+        <div class="button button-img2ascii enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/github.com/o7q/img2ascii')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/projects/img2ascii.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 img2ascii
@@ -179,7 +180,7 @@
         </div>
 
         <!-- hex2filter -->
-        <div class="button button-hex2filter enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/o7q.github.io/hex2filter')">
+        <div class="button button-hex2filter enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/o7q.github.io/hex2filter')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/projects/hex2filter.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 hex2filter
@@ -187,7 +188,7 @@
         </div>
 
         <!-- blenderbatch -->
-        <div class="button button-blenderbatch enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/github.com/o7q/BlenderBatch')">
+        <div class="button button-blenderbatch enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/github.com/o7q/BlenderBatch')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/projects/blenderbatch.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 BlenderBatch
@@ -195,7 +196,7 @@
         </div>
 
         <!-- netutil -->
-        <div class="button button-netutil enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/github.com/o7q/netutil')">
+        <div class="button button-netutil enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/github.com/o7q/netutil')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/projects/netutil.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 netutil
@@ -203,7 +204,7 @@
         </div>
 
         <!-- qbak -->
-        <div class="button button-qbak enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/github.com/o7q/qbak')">
+        <div class="button button-qbak enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/github.com/o7q/qbak')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/projects/qbak.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 qbak
@@ -211,7 +212,7 @@
         </div>
 
         <!-- infinitemonkeysimulator -->
-        <div class="button button-infinitemonkeysimulator enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/github.com/o7q/InfiniteMonkeySimulator')">
+        <div class="button button-infinitemonkeysimulator enablePointer disableSelect buttonAnimeJS" onclick="openPage('new', 'https:\/\/github.com/o7q/InfiniteMonkeySimulator')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             <img src="../../images/button_icons/projects/infinitemonkeysimulator.png" class="buttonImg" draggable="false">
             <p class="buttonText">
                 InfiniteMonkeySimulator
@@ -221,6 +222,11 @@
         <p class="copyrightText disablePointer disableSelect">
             © 2023 o7q
         </p>
+
+        <!-- load cursor -->
+        <div class="inner-cursor"></div>
+        <div class="outer-cursor"></div>
+        <script src="../../libraries/stuff_utils/src/stuff_utils/cursor/cursor.js"></script>
 
         <script src="files/animation.js"></script>
     </body>

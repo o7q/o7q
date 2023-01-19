@@ -79,28 +79,16 @@ body
     background-color: #010101;
 }
 
+*
+{
+    cursor: none;
+    user-select: none;
+}
+
 /* functions */
 
 /* enable animate */
 .enableAnimate
 {
     transition: all 0.3s ease-in-out;
-}
-
-/* enable pointer */
-.enablePointer
-{
-    cursor: pointer;
-}
-
-/* disable pointer */
-.disablePointer
-{
-    cursor: default;
-}
-
-/* disable select */
-.disableSelect
-{
-    user-select: none;
 }

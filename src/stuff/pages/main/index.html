@@ -10,8 +10,9 @@
 
         <!-- libraries -->
         <!-- o7qstuffutils -->
-        <script src="../../libraries/stuff_utils/src/stuff_utils/main.js"></script>
         <link rel="stylesheet" href="../../libraries/stuff_utils/src/stuff_utils/main.css">
+        <link rel="stylesheet" href="../../libraries/stuff_utils/src/stuff_utils/cursor/cursor.css">
+        <script src="../../libraries/stuff_utils/src/stuff_utils/main.js"></script>
     </head>
 
     <body onload="constrainMobile()">
@@ -19,7 +20,7 @@
             <span class="introText enableAnimate disablePointer disableSelect">
                 Welcome to 
             </span>
-            <span class="titleText enableAnimate enablePointer disableSelect" onclick="openPage('replace', '../stuff/index.html')">
+            <span class="titleText enableAnimate enablePointer disableSelect" onclick="openPage('replace', '../stuff/index.html')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
                 o7q's stuff.
             </span>
 
@@ -28,11 +29,16 @@
             <img src="../../images/upArrow.png" class="arrowImg enableAnimate disablePointer disableSelect" draggable="false">
         </div>
 
-        <p class="viewSourceText centerBottom enableAnimate enablePointer disableSelect" onclick="openPage('new', 'https:\/\/github.com/o7q/o7q')">
+        <p class="viewSourceText centerBottom enableAnimate enablePointer disableSelect" onclick="openPage('new', 'https:\/\/github.com/o7q/o7q')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
             View GitHub Source
         </p>
         <p class="copyrightText centerBottom disablePointer disableSelect">
             © 2023 o7q
         </p>
+
+        <!-- load cursor -->
+        <div class="inner-cursor"></div>
+        <div class="outer-cursor"></div>
+        <script src="../../libraries/stuff_utils/src/stuff_utils/cursor/cursor.js"></script>
     </body>
 </html>
