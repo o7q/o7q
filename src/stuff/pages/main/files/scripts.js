@@ -12,25 +12,23 @@ function constrainMobile()
 
 function welcomeText()
 {
-    const message =
+    const messageOverride = ["Welcome to", 152];
+    let message =
     [
-        "Welcome to "
-        // "You are viewing ",
-        // "You are on "
-    ];
-    const messageWidth =
-    [
-        152
-        // 206,
-        // 136
+        "Welcome to", 152,
+        "You are viewing", 206,
+        "You are on", 136
     ];
 
     let randMsg = Math.floor(Math.random() * message.length);
+    if (randMsg % 2 != 0) randMsg--;
 
-    changeWelcomeText(message[randMsg], messageWidth[randMsg])
-}
-function changeWelcomeText(message, messageWidth)
-{
-    document.getElementById("jsRandomText").innerHTML = message + " ";
-    document.querySelector(".arrowImg").style.transform = "translateX(" + messageWidth + "px)";
+    if (messageOverride[0] != "")
+    {
+        message[randMsg] = messageOverride[0];
+        message[randMsg + 1] = messageOverride[1];
+    }
+
+    document.getElementById("jsRandomText").innerHTML = message[randMsg] + " ";
+    document.querySelector(".arrowImg").style.transform = "translateX(" + message[randMsg + 1] + "px)";
 }
