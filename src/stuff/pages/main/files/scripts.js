@@ -14,13 +14,13 @@ function welcomeText()
 {
     const message =
     [
-        "Welcome to ",
+        "Welcome to "
         // "You are viewing ",
         // "You are on "
     ];
     const messageWidth =
     [
-        152,
+        152
         // 206,
         // 136
     ];
