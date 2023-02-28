@@ -15,9 +15,9 @@
         <script src="../../libraries/stuff_utils/src/stuff_utils/main.js"></script>
     </head>
 
-    <body onload="constrainMobile()">
+    <body onload="pageInit()">
         <div class="centerXY">
-            <span class="introText enableAnimate disablePointer disableSelect">
+            <span class="introText enableAnimate disablePointer disableSelect" id="jsRandomText">
                 Welcome to 
             </span>
             <span class="titleText enableAnimate enablePointer disableSelect" onclick="openPage('replace', '../stuff/index.html')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
@@ -26,7 +26,7 @@
 
             <br class="disableSelect">
 
-            <img src="../../images/upArrow.png" class="arrowImg enableAnimate disablePointer disableSelect" draggable="false">
+            <img src="../../images/upArrow.png" class="arrowImg enableAnimate disablePointer disableSelect" id="jsBounceArrow" draggable="false">
 
             <!-- <p class="portfolioSiteText enableAnimate disablePointer disableSelect" onclick="openPage('replace', '')" onmouseover="cursor_grow()" onmouseleave="cursor_shrink()">
                 Click here to view my portfolio
