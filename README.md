@@ -1,4 +1,4 @@
-### <img src="assets/images/icon.png" style="margin-bottom: -0.15rem; margin-right: 1px;"> **o7q** 👋🙂 ~Hobbyist 🧰 ~Computer & Digital/Video Arts Generalist 🖥️🎥
+### <img src="assets/images/icon.png" style="margin-bottom: -0.15rem; margin-right: 1px;"> **o7q** 👋🙂 ~Hobbyist 🧰 ~Computer & Digital Arts Generalist 🖥️🎥
 
 <p style="margin-top: -5px;"></p>
 
