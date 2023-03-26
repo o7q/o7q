@@ -178,6 +178,18 @@
     transition-delay: 0.1s;
 }
 
+/* soundcloud */
+.button-soundcloud:hover
+{
+    border: 3px solid #F7570E;
+}
+.button-soundcloud:hover .buttonImg
+{
+    filter: invert(50%) sepia(32%) saturate(7496%) hue-rotate(353deg) contrast(103%) brightness(96%) drop-shadow(0px 0px 1rem #F7570E80);
+    transition: all 1.5s ease-in-out;
+    transition-delay: 0.1s;
+}
+
 /* steam */
 .button-steam:hover
 {
