@@ -228,6 +228,30 @@
     transition-delay: 0.1s;
 }
 
+/* keystrokes */
+.button-keystrokes:hover
+{
+    border: 3px solid #E3E3E1;
+}
+.button-keystrokes:hover .buttonImg
+{
+    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0px 0px 1rem #E3E3E180);
+    transition: all 1.5s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+/* drawbot */
+.button-drawbot:hover
+{
+    border: 3px solid #3F8BCC;
+}
+.button-drawbot:hover .buttonImg
+{
+    filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) contrast(100%) brightness(100%) drop-shadow(0px 0px 1rem #3F8BCC80);
+    transition: all 1.5s ease-in-out;
+    transition-delay: 0.1s;
+}
+
 /* discordrc */
 .button-discordrc:hover
 {
