@@ -22,7 +22,7 @@
 [![**Discord Presence**](https://lanyard.cnrad.dev/api/307269599680790528?bg=151515)](https://discord.gg/n8jSSSB) | <img src="assets/images/o7qzoom.gif" style="width: 40%; border-radius: 10%;">
 |-|-|
 
-[![**GitHub Stats**](https://readme-stats.clckblog.space/api?username=o7q&theme=dark&show_icons=true)](https://skyline.github.com/o7q/2023) | [![**Top Languages**](https://readme-stats.clckblog.space/api/top-langs/?username=o7q&theme=dark&layout=compact&langs_count=10)](https://github.com/o7q?tab=repositories)
+[![**GitHub Stats**](https://readme-stats.clckblog.space/api?username=o7q&theme=dark&show_icons=true&count_private=true)](https://skyline.github.com/o7q/2023) | [![**Top Languages**](https://readme-stats.clckblog.space/api/top-langs/?username=o7q&theme=dark&layout=compact&langs_count=10)](https://github.com/o7q?tab=repositories)
 |-|-|
 
 ---
