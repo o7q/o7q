@@ -12,7 +12,7 @@
 - 🧼 I'm mainly working on [**MediaDownloader**](https://github.com/o7q/MediaDownloader) and [**MediaConverter**](https://github.com/o7q/MediaConverter)
 - 🤖 The coding languages I'm currently interested in are **C++, C#, Python, JavaScript, HTML, and CSS**
 - 🎨 The programs I'm currently interested in are **Blender, Unreal Engine, and Houdini**
-- 📞 You can reach me through **Discord | o7q#4584**
+- 📞 You can reach me through Discord: **o7q**
 
 ---
 
