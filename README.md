@@ -16,7 +16,7 @@
 
 ---
 
-### **· ◡ ·** 👉 https://o7q.github.io/o7q
+**· ◡ ·** 👉 **https://o7q.github.io/o7q**
 
 ---
 
