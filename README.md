@@ -3,14 +3,14 @@
 <p style="margin-top: -5px;"></p>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=o7q&style=flat&color=blueviolet&label=Profile+Views)
-![Total Stars](https://img.shields.io/github/stars/o7q?logo=github&label=Total%20Stars&color=%23FAEE46)
+![Total Stars](https://img.shields.io/github/stars/o7q?style=flat&label=Total%20Stars&color=FAEE46)
 
 <p style="margin-top: -8px;"></p>
 
 ---
 
-- 🧼 I'm mainly working on [**MediaDownloader**](https://github.com/o7q/MediaDownloader) and [**MediaConverter**](https://github.com/o7q/MediaConverter)
-- 🤖 The coding languages I'm currently interested in are **C++, C#, Python, JavaScript, HTML, and CSS**
+- 🧼 I'm mainly working on [**MediaDownloader**](https://github.com/o7q/MediaDownloader)
+- 🤖 The coding languages I'm currently interested in are **C++, C#, and Java**
 - 🎨 The programs I'm currently interested in are **Blender, Unreal Engine, and Houdini**
 - 📞 You can reach me through Discord: **o7q**
 
