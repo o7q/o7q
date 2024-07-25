@@ -1,4 +1,4 @@
-### <img src="assets/images/icon.png" style="margin-bottom: -0.15rem; margin-right: 1px;"> **o7q**
+### <img src="assets/images/toronao-toroinoue.gif" style="width: 20px;"> **James**
 
 <p style="margin-top: -5px;"></p>
 
@@ -20,10 +20,10 @@
 
 ---
 
-[![**Discord Presence**](https://lanyard.cnrad.dev/api/307269599680790528?bg=170F0C)](https://discord.gg/n8jSSSB) | <img src="assets/images/pompompurin.gif" style="width: 40%">
+[![**Discord Presence**](https://lanyard.cnrad.dev/api/307269599680790528?bg=FFF7E3&theme=light)](https://discord.gg/n8jSSSB) | <img src="assets/images/toro_happy.png" style="width: 200px">
 |-|-|
 
-[![**GitHub Stats**](https://readme-stats.clckblog.space/api?username=o7q&theme=date_night&show_icons=true&count_private=true)](https://skyline.github.com/o7q/2023) | [![**Top Languages**](https://readme-stats.clckblog.space/api/top-langs/?username=o7q&theme=date_night&layout=compact&langs_count=10)](https://github.com/o7q?tab=repositories)
+[![**GitHub Stats**](https://readme-stats.clckblog.space/api?username=o7q&bg_color=FFF7E3&title_color=6B4E4C&text_color=6B4E4C&icon_color=6B4E4C&show_icons=true&count_private=true)](https://skyline.github.com/o7q/2023) | [![**Top Languages**](https://readme-stats.clckblog.space/api/top-langs/?username=o7q&bg_color=FFF7E3&title_color=6B4E4C&text_color=6B4E4C&icon_color=6B4E4C&layout=compact&langs_count=10)](https://github.com/o7q?tab=repositories)
 |-|-|
 
 ---
