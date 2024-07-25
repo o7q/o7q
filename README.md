@@ -1,11 +1,9 @@
-### <img src="assets/images/toronao-toroinoue.gif" style="width: 20px;"> **James**
+### <img src="assets/images/toro_wave.gif" style="width: 20px;"> **James**
 
 <p style="margin-top: -5px;"></p>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=o7q&style=flat&color=blueviolet&label=Profile+Views)
 ![Total Stars](https://img.shields.io/github/stars/o7q?style=flat&label=Total%20Stars&color=FAEE46)
-
-<p style="margin-top: -8px;"></p>
 
 ---
 
