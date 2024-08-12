@@ -27,5 +27,3 @@
 ---
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=o7q&theme=dark_lover&no-frame=true&no-bg=true&rank=-?)
-
----
