@@ -1,0 +1,32 @@
+.rainbow-3d {
+    position: absolute;
+    top: 50%;
+    margin-top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    color: rgb(238, 231, 231);
+    font-family: DrunkFonts;
+    font-size: 10vw;
+    line-height: 4vw;
+
+    filter: drop-shadow(0px 0px 100px #ffffff2a) drop-shadow(0px 0px 10px #ffaf382f) drop-shadow(0px 0px 15px #c6ff2b38) drop-shadow(0px 0px 20px #37ffbc41) drop-shadow(0px 0px 30px #3ea8ff28);
+}
+
+.rainbow-3d:hover {
+    filter: drop-shadow(0px 0px 100px #ffffff5d) drop-shadow(0px 0px 10px #ffb0388c) drop-shadow(0px 0px 15px #c7ff2b88) drop-shadow(0px 0px 20px #37ffbc86) drop-shadow(0px 0px 30px #3ea8ff86);
+    transform: translate(-50%, -50%) scale(1.1);
+    cursor: pointer;
+
+    /* filter:
+        drop-shadow(0px 1px 0px #ff5959)
+        drop-shadow(0px 2px 0px #ff8f34)
+        drop-shadow(0px 3px 0px #fff134)
+        drop-shadow(0px 4px 0px #c2ff34)
+        drop-shadow(0px 5px 0px #96ff34)
+        drop-shadow(0px 6px 0px #34ff71)
+        drop-shadow(0px 7px 0px #34f1ff); */
+}
+
+.animation {
+    transition: filter 3s ease-in-out, transform 3s ease-in-out;
+}

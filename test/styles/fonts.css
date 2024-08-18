@@ -1,0 +1,34 @@
+@font-face {
+    font-family: BitCell;
+    src: url(../fonts/bitcell.ttf);
+}
+
+@font-face {
+    font-family: Arthead;
+    src: url(../fonts/arthead.otf);
+}
+
+@font-face {
+    font-family: DrunkFonts;
+    src: url(../fonts/drunkfonts.otf);
+}
+
+@font-face {
+    font-family: Yagiza;
+    src: url(../fonts/yagiza.ttf);
+}
+
+@font-face {
+    font-family: ImFellTypes;
+    src: url(../fonts/im_fell_types.ttf);
+}
+
+@font-face {
+    font-family: YesevaOne;
+    src: url(../fonts/yeseva_one.ttf);
+}
+
+@font-face {
+    font-family: Spac3Halftone;
+    src: url(../fonts/space3_halftone.ttf);
+}
