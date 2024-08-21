@@ -1,0 +1,33 @@
+.enterText {
+    position: absolute;
+    top: 42vw;
+    left: 20.1vw;
+    color: rgb(238, 231, 231);
+    font-size: 2vw;
+    font-family: BitCell;
+    mix-blend-mode: difference;
+}
+
+.userTextInput {
+    position: absolute;
+    top: 44vw;
+    left: 20vw;
+    color: rgb(238, 231, 231);
+    font-size: 3vw;
+    font-family: BitCell;
+    background-color: black;
+    border: 0.3vw solid rgb(31, 31, 31);
+    outline: none;
+}
+
+a {
+    color: rgb(255, 90, 167);
+}
+
+a:hover {
+    color: rgb(153, 88, 228);
+}
+
+a:active {
+    color: rgb(197, 149, 252);
+}
