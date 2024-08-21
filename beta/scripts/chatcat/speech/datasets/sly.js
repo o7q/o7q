@@ -1113,6 +1113,10 @@ therapy
 therapist
 
 happy<!>speak/anim_speak_happy<!>speak/audio_speak_happy<!>idle/anim_idle_happy<!>I can try to! jame taught me a few things, feel free to ask anything.
+____END____
+do something
+
+sly<!>speak/anim_speak_sly<!>speak/audio_speak_sly<!>idle/anim_idle_sly<!>I am too lazy.
 `;
 
 const SLY_DATASET = parseDataset(SLY_DATASET_RAW);
