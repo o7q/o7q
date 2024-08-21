@@ -4,6 +4,14 @@ window.onload = function () {
 
     configureElementListeners();
 
+    speak(
+        "Hey! I'm Sly! Welcome to my beta test. If you find any bugs, or have any ideas for new features, please message jame!",
+        "speak/anim_speak_happy",
+        "speak/audio_speak_happy",
+        "idle/anim_idle_happy",
+        20
+    );
+
     const backdrop = document.getElementById("backdrop");
     const backdrops = [
         "../images/animations/cat/chat/backdrops/space/space.gif",
