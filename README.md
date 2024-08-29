@@ -14,7 +14,7 @@
 
 ---
 
-**· ◡ ·** 👉 **https://o7q.github.io/o7q**
+See my stuff here! 👉 **https://o7q.github.io/james-stuff**
 
 ---
 
