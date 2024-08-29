@@ -1,20 +1,27 @@
-.catText {
+.cat__text {
+    max-width: 40vw;
+
     position: absolute;
     left: 13vw;
     top: 15vw;
+
     margin-top: 0px;
+
     color: rgb(238, 231, 231);
-    font-size: 4vw;
+
+    font-size: 3.2vw;
     font-family: BitCell;
-    max-width: 40vw;
+
     word-wrap: break-word;
 }
 
-.catTextBackground {
+.cat__text-background {
     position: absolute;
     left: 10vw;
     top: 13vw;
-    display: none;
+
     border: 1vw ridge rgb(238, 231, 231);
     background-color: rgb(0, 0, 0);
+
+    display: none;
 }

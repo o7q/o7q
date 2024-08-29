@@ -108,13 +108,13 @@ function getRageResponse(rageIndex) {
         "idle/anim_idle_sly",
         25,
 
-        "jame",
+        "james",
         "speak/anim_speak_sly",
         "speak/audio_speak_sly",
         "idle/anim_idle_sly",
         25,
 
-        "jame.",
+        "james.",
         "speak/anim_speak_sly",
         "speak/audio_speak_sly",
         "idle/anim_idle_sly",

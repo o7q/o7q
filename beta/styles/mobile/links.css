@@ -1,0 +1,29 @@
+.link-container {
+    position: absolute;
+
+    top: 300px;
+}
+
+.link-container__link {
+    margin-bottom: 10px;
+    width: 350px;
+    height: 75px;
+    border-radius: 50px;
+    outline: 2px solid rgb(46, 46, 46);
+    background-color: rgb(12, 12, 12);
+}
+
+.link-container__link__icon {
+    position: absolute;
+    width: 50px;
+    transform: translate(50%, 50%);
+}
+
+.link-container__link__text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 25%);
+
+    font-size: 20px;
+    color: white;
+}

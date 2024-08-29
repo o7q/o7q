@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/favicon/projects/cartridges.png">
+    <title>james' projects</title>
+
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/overlays.css">
+
+    <link rel="stylesheet" href="../styles/projects/body.css">
+    <link rel="stylesheet" href="../styles/projects/shelf/shelf.css">
+    <link rel="stylesheet" href="../styles/projects/shelf/colors.css">
+    <link rel="stylesheet" href="../styles/projects/project-overlay.css">
+
+    <script src="../scripts/utils.js"></script>
+    <script src="../scripts/input.js"></script>
+
+    <script src="../scripts/projects/main.js"></script>
+    <script src="../scripts/projects/cartridge.js"></script>
+
+    <link rel="stylesheet" href="../styles/transitions/body-fade.css">
+</head>
+
+<body>
+    <img src="../scenes/projects/backgrounds/background.png" class="background blur" id="background" draggable="false">
+    <img src="../scenes/projects/backgrounds/1920x1080_12.gif" class="background blur background--overlay"
+        id="background-cat" draggable="false">
+
+    <img src="../images/overlays/dust.gif" class="background blur background--dust" id="background-dust"
+        draggable="false">
+
+    <img src="../scenes/projects/backgrounds/foreground.png" class="background" id="foreground-shelf" draggable="false">
+
+    <div class="shelf-grid">
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/MediaDownloader', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--gray"
+                draggable="false">
+            <img src="../scenes/projects/images/projects/mediadownloader.png"
+                class="shelf-grid__image-container__project-image" draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/mediadownloader.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/MediaConverter', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--gray"
+                draggable="false">
+            <img src="../scenes/projects/images/projects/mediaconverter.png"
+                class="shelf-grid__image-container__project-image" draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/mediaconverter.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/Scribe', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--gray"
+                draggable="false">
+            <img src="../scenes/projects/images/projects/scribe.png" class="shelf-grid__image-container__project-image"
+                draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/scribe.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/BlenderBatch', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--blue"
+                draggable="false">
+            <img src="../scenes/projects/images/projects/blenderbatch.png"
+                class="shelf-grid__image-container__project-image" draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/blenderbatch.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/DiscordRC', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--blue"
+                draggable="false">
+            <img src="../scenes/projects/images/projects/discordrc.png"
+                class="shelf-grid__image-container__project-image" draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/discordrc.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/DrawBot', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--blue"
+                draggable="false">
+            <img src="../scenes/projects/images/projects/drawbot.png" class="shelf-grid__image-container__project-image"
+                draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/drawbot.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/Keystrokes', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--white"
+                draggable="false">
+            <img src="../scenes/projects/images/projects/keystrokes.png"
+                class="shelf-grid__image-container__project-image" draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/keystrokes.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/img2ascii', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--white"
+                draggable="false">
+            <img src="../scenes/projects/images/projects/img2ascii.png"
+                class="shelf-grid__image-container__project-image" draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/img2ascii.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/hex2filter', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--white"
+                draggable="false">
+            <img src="../scenes/projects/images/projects/hex2filter.png"
+                class="shelf-grid__image-container__project-image" draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/hex2filter.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/ImageSynth', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image">
+            <img src="../scenes/projects/images/projects/imagesynth.png"
+                class="shelf-grid__image-container__project-image" draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/imagesynth.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/cubeLauncher', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--green"
+                draggable="false">
+            <img src="../scenes/projects/images/projects/cubelauncher.png"
+                class="shelf-grid__image-container__project-image" draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/cubelauncher.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/KineticDamage', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--green"
+                draggable="false">
+            <img src="../scenes/projects/images/projects/kineticdamage.png"
+                class="shelf-grid__image-container__project-image" draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/kineticdamage.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+        <div class="shelf-grid__image-container"
+            onclick="openPage('https:\/\/github.com/o7q/RustServerManager', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--green"
+                draggable="false">
+            <img src="../scenes/projects/images/projects/rustservermanager.png"
+                class="shelf-grid__image-container__project-image" draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/rustservermanager.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/qbak', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--green"
+                draggable="false">
+            <img src="../scenes/projects/images/projects/qbak.png" class="shelf-grid__image-container__project-image"
+                draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/qbak.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/netutil', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--yellow"
+                draggable="false">
+            <img src="../scenes/projects/images/projects/netutil.png" class="shelf-grid__image-container__project-image"
+                draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/netutil.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/particle-engine', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--yellow"
+                draggable="false">
+            <img src="../scenes/projects/images/projects/particle_engine.png"
+                class="shelf-grid__image-container__project-image" draggable="false">
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <img src="../scenes/projects/images/projects/particle_engine.png" class="project-popup__bubble__image"
+                    draggable="false">
+            </div>
+        </div>
+    </div>
+    <div class="shelf-grid shelf-grid--2">
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/picnogram', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--gray"
+                draggable="false">
+            <p class="shelf-grid__image-container__project-image shelf-grid__image-container__project-text">picnogram
+            </p>
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <p class="project-popup__bubble__text">picnogram</p>
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/Triangulator', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--gray"
+                draggable="false">
+            <p class="shelf-grid__image-container__project-image shelf-grid__image-container__project-text">Triangulator
+            </p>
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <p class="project-popup__bubble__text">Triangulator</p>
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/Simple3DGrapher', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--gray"
+                draggable="false">
+            <p class="shelf-grid__image-container__project-image shelf-grid__image-container__project-text">
+                Simple3DGrapher</p>
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <p class="project-popup__bubble__text">Simple3DGrapher</p>
+            </div>
+        </div>
+        <div class="shelf-grid__image-container"
+            onclick="openPage('https:\/\/github.com/o7q/InfiniteMonkeySimulator', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--gray"
+                draggable="false">
+            <p class="shelf-grid__image-container__project-image shelf-grid__image-container__project-text">
+                InfiniteMonkeySimulator</p>
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <p class="project-popup__bubble__text">InfiniteMonkeySimulator</p>
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/ez-instant-ngp', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--gray"
+                draggable="false">
+            <p class="shelf-grid__image-container__project-image shelf-grid__image-container__project-text">
+                ez-instant-ngp</p>
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <p class="project-popup__bubble__text">ez-instant-ngp</p>
+            </div>
+        </div>
+        <div class="shelf-grid__image-container" onclick="openPage('https:\/\/github.com/o7q/things', 'new')">
+            <img src="../scenes/projects/animations/game_cartridge/unhover/0.png"
+                class="shelf-grid__image-container__cartridge-image shelf-grid__image-container__cartridge-image--gray"
+                draggable="false">
+            <p class="shelf-grid__image-container__project-image shelf-grid__image-container__project-text">things</p>
+            <div class="project-popup">
+                <img src="../images/symbols/speech_bubble.png" class="project-popup__bubble" draggable="false">
+                <p class="project-popup__bubble__text">things</p>
+            </div>
+        </div>
+    </div>
+
+    <p class="return-text" style="font-family: BitCell;" onclick="pageTransition('../index.html', 'replace')">&lt; Go
+        back</p>
+</body>
+
+</html>

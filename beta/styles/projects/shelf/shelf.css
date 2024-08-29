@@ -1,0 +1,127 @@
+.shelf-grid {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0px;
+    top: 203px;
+    left: 50px;
+    padding: 0;
+    margin: 0;
+
+    filter: drop-shadow(-30px 5px 20px #0000009d);
+}
+
+.shelf-grid--2 {
+    top: 642px;
+}
+
+.shelf-grid__image-container {
+    position: relative;
+    margin-left: -32px;
+
+    filter: drop-shadow(0px 0px 25px #000000);
+}
+
+.shelf-grid__image-container__cartridge-image {
+    width: auto;
+    height: 350px;
+
+    object-fit: cover;
+    
+    cursor: pointer;
+
+    transition: 0.5s filter ease-in-out;
+}
+
+.shelf-grid__image-container__project-image {
+    position: absolute;
+    top: 140px;
+    left: -42px;
+
+    width: 200px;
+    /* visually the height */
+    height: auto;
+    max-height: 35px;
+    /* visually the width */
+
+    object-fit: contain;
+
+    transition: 0.15s transform ease-in-out, 0.5s filter ease-in-out;
+    transform: translate(0px, 0px) rotateY(0deg) rotate(-90deg);
+    filter: drop-shadow(0px 0px 2px #000000);
+
+    pointer-events: none;
+}
+
+.shelf-grid__image-container__project-text {
+    position: absolute;
+    left: -45px;
+
+    color: white;
+
+    font-family: RobotoMedium;
+    font-size: 20px;
+    text-align: center;
+
+    pointer-events: none;
+}
+
+.project-image--skew {
+    transform: translate(-35px, 0px) rotateY(-20deg) rotate(-90deg);
+}
+
+.project-popup {
+    position: absolute;
+    left: 0;
+    top: -150px;
+
+    width: 300px;
+    height: 200px;
+
+    pointer-events: none;
+
+    transition: 0.1s opacity ease-in-out;
+    opacity: 0;
+}
+
+.project-popup__bubble {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+    opacity: 0.6;
+}
+
+.project-popup__bubble__image {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+
+    width: 200px;
+    max-height: 50px;
+    height: auto;
+
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+
+    pointer-events: none;
+}
+
+.project-popup__bubble__text {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+
+    color: white;
+
+    font-family: RobotoMedium;
+    font-size: 20px;
+
+    transform: translate(-50%, -50%);
+
+    pointer-events: none;
+}

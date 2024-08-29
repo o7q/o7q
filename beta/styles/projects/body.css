@@ -1,0 +1,36 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(2, 2, 2);
+
+    height: 100%;
+
+    user-select: none;
+}
+
+.background {
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    object-fit: cover;
+
+    transition: filter 0.5s ease-in-out;
+}
+
+.background--overlay {
+    mix-blend-mode: screen;
+}
+
+.background--dust {
+    mix-blend-mode: lighten;
+    opacity: 0.5;
+
+    pointer-events: none;
+}
+
+.blur {
+    filter: blur(5px);
+}

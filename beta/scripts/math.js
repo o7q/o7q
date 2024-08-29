@@ -2,14 +2,6 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
 
-function getElementPosition(element) {
-    const rect = element.getBoundingClientRect();
-    return {
-        x: rect.left + window.scrollX,
-        y: rect.top + window.scrollY
-    };
-}
-
 function getSnappedAngle(x, y, destX, destY) {
     const deltaX = x - destX;
     const deltaY = y - destY;

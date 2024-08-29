@@ -1,0 +1,15 @@
+let ALLOW_EVENTS = true;
+let ALLOW_SPEAKING = true;
+let ALLOW_AUDIO = true;
+
+const JAMES_DYNAMIC_AGE = unixToDays(Date.now() - 1143784800000) / 365;
+
+let HAPPINESS = 20;
+let LOVE = 0;
+
+let LOVE_DIALOGUE_INDEX = 0
+let RAGE_DIALOGUE_INDEX = 0;
+
+let KNOWN_FIRST_NAME = "";
+let KNOWN_MIDDLE_NAME = "";
+let KNOWN_LAST_NAME = "";

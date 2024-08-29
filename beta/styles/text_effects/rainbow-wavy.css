@@ -1,19 +1,25 @@
 /* these effects are no longer used due to lag */
-.wavy {
+.text-effect__wavy {
     position: absolute;
-    transform: translateX(-50%) skew(20deg, 10deg);
     left: 50%;
+
     top: 10px;
+
+    transform: translateX(-50%) skew(20deg, 10deg);
 }
 
-.wavy span {
+.text-effect__wavy span {
     position: relative;
     display: inline-block;
+
     color: rgb(238, 231, 231);
+
     font-size: 200px;
     font-family: YesevaOne;
+
     animation: animate 30s ease-in-out infinite;
     animation-delay: calc(0.5s * var(--i));
+
     text-shadow: 1px 1px 1px rgb(238, 231, 231),
         1px 2px 1px #ff5959,
         1px 3px 1px #ff5959,

@@ -1,2 +1,2 @@
-# jame's stuff (BETA)
-The beta for my new website!
+# james' stuff
+The beta for my website.

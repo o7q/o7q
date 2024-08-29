@@ -1,7 +1,7 @@
 function parseDataset(dataset) {
     const slicedDataset = dataset.slice(1, -1);
 
-    const dataset_split = slicedDataset.split('\n____END____\n');
+    const dataset_split = slicedDataset.split("\n____END____\n");
     let parsed_dataset = [];
 
     for (let i = 0; i < dataset_split.length; i++) {
