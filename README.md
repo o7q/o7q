@@ -7,7 +7,7 @@
 
 <!-- - 🤖 I'm mainly working on [**MediaDownloader**](https://github.com/o7q/MediaDownloader) -->
 - 🧼 The coding languages I'm currently interested in are **C and C++**
-- 🎨 The programs I'm currently interested in are **Blender, Unreal Engine, and Houdini**
+- 🎨 The software I'm currently interested in are **Blender and Houdini**
 - 📞 You can reach me through Discord: **o7q**
 
 ---
