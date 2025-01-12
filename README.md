@@ -17,8 +17,8 @@ See more of my stuff here! 👉 **<https://o7q.github.io/james-stuff>** <img src
 
 ---
 
-<img src="images/sly.gif" style="width: 200px"> | ![**Discord Presence**](https://lanyard.cnrad.dev/api/307269599680790528?bg=000000)
-|-|-|
+<img src="images/sly.gif" style="width: 200px"> | ![**Discord Presence**](https://lanyard.cnrad.dev/api/307269599680790528?bg=000000) | <img src="images/mewo.gif" style="width: 200px;">
+|-|-|-|
 
 ![**GitHub Stats**](https://github-readme-stats.vercel.app/api?username=o7q&bg_color=000000&title_color=F5B5AB&text_color=FFF7E3&icon_color=F5B5AB&show_icons=true&count_private=true) | ![**Top Languages**](https://github-readme-stats.vercel.app/api/top-langs/?username=o7q&bg_color=000000&title_color=F5B5AB&text_color=FFF7E3&icon_color=F5B5AB&layout=compact&langs_count=8)
 |-|-|
@@ -26,5 +26,3 @@ See more of my stuff here! 👉 **<https://o7q.github.io/james-stuff>** <img src
 ---
 
 ![**Trophies**](https://github-profile-trophy.vercel.app/?username=o7q&theme=dark_lover&no-frame=true&no-bg=true&rank=-?)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/mewo.gif" style="width: 40px;">
