@@ -11,6 +11,8 @@
 - 🎵 music production
 - 🎶 music in general
 
+## See more of my stuff here! <img src="images/cat_pointing.png" style="width: 25px;"> **<https://o7q.github.io/james-stuff>** <img src="images/cat_dance.gif" style="width: 30px;">
+
 ---
 
 <img src="images/sly.gif" style="width: 355px"> | ![**Discord Presence**](https://lanyard.cnrad.dev/api/307269599680790528?bg=000000)
