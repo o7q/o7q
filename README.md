@@ -3,7 +3,7 @@
 
 ---
 
-## 💗 interests
+## 💗 interests <img src="images/mewo.gif" style="width: 40px">
 - 🎮 indie games
 - 🤖 low-level game dev
 - 🎞️ video editing
