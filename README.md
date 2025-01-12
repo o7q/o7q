@@ -11,9 +11,7 @@
 - 🎵 music production
 - 🎶 music in general
 
----
-
-See more of my stuff here! 👉 **<https://o7q.github.io/james-stuff>** <img src="images/cat_dance.gif" style="width: 30px;">
+### See more of my stuff here! 👉 **<https://o7q.github.io/james-stuff>** <img src="images/cat_dance.gif" style="width: 30px;">
 
 ---
 
