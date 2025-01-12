@@ -12,16 +12,16 @@
 
 ---
 
-See my stuff here! 👉 **<https://o7q.github.io/james-stuff>**
+See more of my stuff here! 👉 **<https://o7q.github.io/james-stuff>** <img src="images/cat_dance.gif" style="width: 30px;">
 
 ---
 
-![**Discord Presence**](https://lanyard.cnrad.dev/api/307269599680790528?bg=000000)| <img src="images/toro_happy.png" style="width: 200px">
+![**Discord Presence**](https://lanyard.cnrad.dev/api/307269599680790528?bg=000000) | <img src="images/toro_happy.png" style="width: 200px">
 |-|-|
 
-[![**GitHub Stats**](https://github-readme-stats.vercel.app/api?username=o7q&bg_color=000000&title_color=F5B5AB&text_color=FFF7E3&icon_color=F5B5AB&show_icons=true&count_private=true)](https://skyline.github.com/o7q/2023) | [![**Top Languages**](https://github-readme-stats.vercel.app/api/top-langs/?username=o7q&bg_color=000000&title_color=F5B5AB&text_color=FFF7E3&icon_color=F5B5AB&layout=compact&langs_count=10)](https://github.com/o7q?tab=repositories)
+![**GitHub Stats**](https://github-readme-stats.vercel.app/api?username=o7q&bg_color=000000&title_color=F5B5AB&text_color=FFF7E3&icon_color=F5B5AB&show_icons=true&count_private=true) | ![**Top Languages**](https://github-readme-stats.vercel.app/api/top-langs/?username=o7q&bg_color=000000&title_color=F5B5AB&text_color=FFF7E3&icon_color=F5B5AB&layout=compact&langs_count=8) <img src="images/mewo.gif" style="width: 40px;">
 |-|-|
 
 ---
 
-![trophy](https://github-profile-trophy.vercel.app/?username=o7q&theme=dark_lover&no-frame=true&no-bg=true&rank=-?)
+![**Trophies**](https://github-profile-trophy.vercel.app/?username=o7q&theme=dark_lover&no-frame=true&no-bg=true&rank=-?)
