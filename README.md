@@ -26,4 +26,5 @@ See more of my stuff here! 👉 **<https://o7q.github.io/james-stuff>** <img src
 ---
 
 ![**Trophies**](https://github-profile-trophy.vercel.app/?username=o7q&theme=dark_lover&no-frame=true&no-bg=true&rank=-?)
-<img src="images/mewo.gif" style="width: 40px">
+
+<img src="images/mewo_white.gif" style="width: 40px">
