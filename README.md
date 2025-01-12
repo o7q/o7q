@@ -1,14 +1,15 @@
-### <img src="images/toro_wave.gif" style="width: 20px;"> **James**
-
-![Profile Views](https://komarev.com/ghpvc/?username=o7q&style=flat&color=blueviolet&label=Profile+Views)
-![Total Stars](https://img.shields.io/github/stars/o7q?style=flat&label=Total%20Stars&color=FAEE46)
+<img src="images/funne_cat.png" style="width: 120px;"> | <h2>💬 hi, i'm jame! :3</h2> | <img src="images/toro_wave.gif" style="width: 25px;">
+|-|-|-|
 
 ---
 
-<!-- - 🤖 I'm mainly working on [**MediaDownloader**](https://github.com/o7q/MediaDownloader) -->
-- 🧼 The programming languages I'm currently interested in are **C** and **C++**
-- 🎨 The programs I'm currently interested in are **Blender** and **Houdini**
-- 📞 You can reach me through Discord: **o7q**
+## 💗 interests
+- 🎮 indie games
+- 🤖 low-level game dev
+- 🎞️ video editing
+- 🎥 film and cinematography
+- 🎵 music production
+- 🎶 music in general
 
 ---
 
@@ -16,7 +17,7 @@ See more of my stuff here! 👉 **<https://o7q.github.io/james-stuff>** <img src
 
 ---
 
-![**Discord Presence**](https://lanyard.cnrad.dev/api/307269599680790528?bg=000000) | <img src="images/toro_happy.png" style="width: 200px">
+<img src="images/sly.gif" style="width: 200px"> | ![**Discord Presence**](https://lanyard.cnrad.dev/api/307269599680790528?bg=000000)
 |-|-|
 
 ![**GitHub Stats**](https://github-readme-stats.vercel.app/api?username=o7q&bg_color=000000&title_color=F5B5AB&text_color=FFF7E3&icon_color=F5B5AB&show_icons=true&count_private=true) | ![**Top Languages**](https://github-readme-stats.vercel.app/api/top-langs/?username=o7q&bg_color=000000&title_color=F5B5AB&text_color=FFF7E3&icon_color=F5B5AB&layout=compact&langs_count=8)

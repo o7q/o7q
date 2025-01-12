@@ -1,0 +1,4 @@
+*.blend[1-9]
+*.blend10
+renders/*.png
+renders/*.gif
