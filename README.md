@@ -1,4 +1,4 @@
-<img src="images/funne_cat.png" style="width: 120px;"> | <h2>💬 hi, i'm jame! :3</h2> | <img src="images/toro_wave.gif" style="width: 25px;">
+<img src="images/funne_cat.png" style="width: 120px;"> | <h2>💬 hi, i'm jame!</h2> | <img src="images/toro_wave.gif" style="width: 25px;">
 |-|-|-|
 
 ---
