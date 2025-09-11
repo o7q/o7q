@@ -1,15 +1,5 @@
-<img src="images/funne_cat.png" style="width: 120px;"> | <h2>💬 hi, i'm [jame](https://jame.pet)!</h2> | <img src="images/toro_wave.gif" style="width: 25px;">
-|-|-|-|
-
----
-
-## 💗 interests
-- 🎮 indie games
-- 🤖 low-level game dev
-- 🎞️ video editing
-- 🎥 film and cinematography
-- 🎵 music production
-- 🎶 music in general
+<img src="images/funne_cat.png" style="width: 50px;"> | <h2>💬 hi, i'm [jame](https://jame.pet).</h2>
+|-|-|
 
 ---
 
