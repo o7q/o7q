@@ -3,7 +3,7 @@
 
 ---
 
-## 💡 interests
+## 💗 interests
 - 🎮 indie games
 - 🤖 low-level development
 - 🎥 film and cinematography
