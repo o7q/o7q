@@ -7,7 +7,7 @@
 - 🎮 indie games
 - 🤖 low-level development
 - 🎥 film and cinematography
-- 🎶 music in general
+- 🎶 music
 
 ---
 
