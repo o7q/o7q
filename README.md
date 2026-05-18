@@ -1,4 +1,4 @@
-# <img src="images/funne_cat.png" style="width: 30px;"> hi, i'm jame.
+## <img src="images/funne_cat.png" style="width: 30px;"> hi, i'm jame.
 
 i like to make stuff whenever i can.
 
