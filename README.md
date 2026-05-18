@@ -12,4 +12,5 @@ i like to make stuff whenever i can.
 ---
 
 i make **art** of all sorts, like look at this stupid ass dude:
+
 <img src="images/sly.gif" style="width: 355px;">
